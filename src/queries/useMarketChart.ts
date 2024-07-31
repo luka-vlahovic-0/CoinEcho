@@ -1,7 +1,6 @@
 import { useQuery } from '@tanstack/react-query'
 import { fetchMarketChart } from '../service'
 
-import React from 'react'
 
 type Props = {
   id: string
