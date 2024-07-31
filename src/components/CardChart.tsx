@@ -1,5 +1,4 @@
 import { ApexOptions } from 'apexcharts'
-import React from 'react'
 import ReactApexChart from 'react-apexcharts'
 import { COLORS } from '../constants'
 import moment from 'moment'
@@ -31,7 +30,7 @@ const options: ApexOptions = {
   },
   tooltip: {
     custom: ({ seriesIndex, dataPointIndex, w }) => {
-      let data = w.globals.initialSeries[seriesIndex].data[dataPointIndex]
+      const data = w.globals.initialSeries[seriesIndex].data[dataPointIndex]
       return customChartTooltip(data.y, 4)
     },
   },

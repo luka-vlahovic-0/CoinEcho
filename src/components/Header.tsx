@@ -1,4 +1,3 @@
-import React from 'react'
 import {IoStatsChart} from 'react-icons/io5'
 type Props = {}
 

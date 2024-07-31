@@ -1,5 +1,5 @@
 import { Button, ButtonGroup } from '@nextui-org/button'
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import MarketChart from './MarketChart'
 import PriceChange24h from './PriceChange24h'
 import useMarketChart from '../queries/useMarketChart'

@@ -1,7 +1,5 @@
-import { useEffect } from 'react'
 import DetailsView from './DetailsView'
 import MarketCurrencies from './MarketCurrencies'
-import { fetchMarketCurrencies } from '../service'
 
 type Props = {}
 
